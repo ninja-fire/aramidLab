@@ -1,4 +1,5 @@
 import '../scss/main.scss'
+import 'animate.css'
 
 if (
     "IntersectionObserver" in window &&
