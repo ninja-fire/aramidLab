@@ -20,9 +20,8 @@ header{
     border-bottom: 1px solid rgba(121, 101, 255, 0.2);
   }
   @at-root {
-    body.header-not-at-top {
-
-    }
+    //body.header-not-at-top {
+    //}
   }
 
   .page-link{
@@ -53,7 +52,15 @@ header{
     }
   }
 
-}
+  svg:hover{
+      fill: rgba(255, 255, 255, 0.08);
+    }
+
+  svg:active{
+    fill: rgba(21, 16, 54, 0.3);
+  }
+
+  }
 
 body {
   background: #0B0918;
@@ -143,13 +150,21 @@ body {
       flex-grow: 0;
       flex-direction: column;
       align-items: center;
-      padding: 16px;
-      gap: 16px;
+      padding: 1rem;
+      gap: 1rem;
       width: 320px;
       background: radial-gradient(ellipse farthest-corner at 90% 90%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.12) 100%);
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 8px;
       backdrop-filter: blur(32px);
+
+      svg:hover{
+        fill: rgba(255, 255, 255, 0.08);
+      }
+
+      svg:active{
+        fill: rgba(21, 16, 54, 0.3);
+      }
 
       p{
         font-style: normal;
