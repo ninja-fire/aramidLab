@@ -118,8 +118,6 @@ body {
       align-items: center;
       text-align: center;
       width: 60%;
-
-
       /* Dark/Placeholder */
       color: rgba(246, 246, 246, 0.5);
     }
@@ -158,12 +156,14 @@ body {
       border-radius: 8px;
       backdrop-filter: blur(32px);
 
-      svg:hover{
-        fill: rgba(255, 255, 255, 0.08);
-      }
+      .button-state{
+        svg:hover{
+          fill: rgba(255, 255, 255, 0.08);
+        }
 
-      svg:active{
-        fill: rgba(21, 16, 54, 0.3);
+        svg:active{
+          fill: rgba(21, 16, 54, 0.3);
+        }
       }
 
       p{
